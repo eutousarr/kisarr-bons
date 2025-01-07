@@ -2,7 +2,7 @@ import { Invoice, Totals } from '@/type'
 import confetti from 'canvas-confetti'
 import html2canvas from 'html2canvas-pro'
 import jsPDF from 'jspdf'
-import { ArrowDownFromLine, Rocket, SatelliteDish } from 'lucide-react'
+import { ArrowDownFromLine, SatelliteDish } from 'lucide-react'
 import Image from 'next/image'
 import React, { useRef } from 'react'
 
