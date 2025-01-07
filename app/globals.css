@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .scrollable {
-    overflow-y: auto;
-    max-height: 100vh;
+  overflow-y: auto;
+  max-height: 100vh;
 }
