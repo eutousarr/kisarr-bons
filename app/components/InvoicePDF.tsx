@@ -45,7 +45,7 @@ const InvoicePDF: React.FC<FacturePDFProps> = ({ invoice, totals }) => {
 
         confetti({
           particleCount: 200,
-          spread: 70,
+          spread: 100,
           origin: { y: 0.6 },
           zIndex: 9999,
         });
@@ -90,7 +90,7 @@ const InvoicePDF: React.FC<FacturePDFProps> = ({ invoice, totals }) => {
               <h1 className="mt-4 text-4xl font-bold">Facture</h1>
             </div>
             <div className="text-right uppercase">
-              <p className="badge badge-ghost">Facture ° {invoice.id}</p>
+              <p className="text-lg badge badge-warning">Facture n° {invoice.id}/{invoice.name}</p>
               <p className="my-2">
                 <strong>Date </strong>
                 {formatDate(invoice.invoiceDate)}
